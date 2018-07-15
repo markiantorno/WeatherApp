@@ -3,7 +3,7 @@ package com.markiantorno.weathertestapp.services;
 import com.google.gson.Gson;
 import com.markiantorno.weathertestapp.BuildConfig;
 import com.markiantorno.weathertestapp.RestServiceMockUtils;
-import com.markiantorno.weathertestapp.objects.WeatherStatus;
+import com.markiantorno.weathertestapp.objects.weather.WeatherStatus;
 
 import junit.framework.TestCase;
 

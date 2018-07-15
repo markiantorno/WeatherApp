@@ -62,4 +62,15 @@ public class Main {
         this.tempMax = tempMax;
     }
 
+    public Double getTempCelcius() {
+        return temp - 273.15;
+    }
+
+    public Double getTempMinCelcius() {
+        return tempMin - 273.15;
+    }
+
+    public Double getTempMaxCelcius() {
+        return tempMax - 273.15;
+    }
 }
